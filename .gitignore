@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+build
+.DS_Store
+*.pem
+npm-debug.log*
+.env*
+!.env.example
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# tooling output
+.playwright-mcp
+
+# local MCP config
+.mcp.json
