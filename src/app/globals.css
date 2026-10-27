@@ -31,6 +31,11 @@
   --color-teal-soft: #eff8f8;
   --color-amber: #d09a16;
   --color-amber-soft: #fdf8ec;
+  /* Reserve videos (26/10): distinct from the logo stripes and from red. */
+  --color-blue: #3a6ea5;
+  --color-blue-soft: #f1f5fa;
+  --color-rose: #b0587a;
+  --color-rose-soft: #faf3f6;
 
   --color-red: #b5303e;
   --color-red-soft: #fcf7f7;

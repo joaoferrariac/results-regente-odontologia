@@ -35,6 +35,18 @@ export const TONES: Record<ChartTone, ToneStyle> = {
     border: "border-amber/20",
     text: "text-amber",
   },
+  reabilitacao: {
+    fill: "bg-blue",
+    surface: "bg-blue-soft",
+    border: "border-blue/20",
+    text: "text-blue",
+  },
+  protese: {
+    fill: "bg-rose",
+    surface: "bg-rose-soft",
+    border: "border-rose/20",
+    text: "text-rose",
+  },
   neutral: {
     fill: "bg-ink-soft",
     surface: "bg-paper-alt",

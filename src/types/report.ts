@@ -7,10 +7,16 @@
  */
 
 /**
- * Phase 1 runs a single top-of-funnel campaign with three videos, so the
- * creative — not the funnel stage — is what carries a colour across charts.
+ * Phase 1 runs a single top-of-funnel campaign, so the creative — not the
+ * funnel stage — is what carries a colour across charts. The last two are the
+ * reserve videos that entered the rotation on 26/10.
  */
-export type Creative = "familia" | "estetica" | "perda";
+export type Creative =
+  | "familia"
+  | "estetica"
+  | "perda"
+  | "reabilitacao"
+  | "protese";
 
 /** Non-creative accents used by comparison charts. */
 export type ChartTone = Creative | "neutral" | "highlight";
