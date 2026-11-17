@@ -170,13 +170,6 @@ export interface Messages {
   clicksChart: BarChartData;
 }
 
-export interface ActionItem {
-  title: string;
-  description: string;
-  /** Renders the "urgente" pill and the alert accent. */
-  urgent?: boolean;
-}
-
 export interface Report {
   meta: ReportMeta;
   hero: Hero;
@@ -191,6 +184,5 @@ export interface Report {
   retentionChart: BarChartData;
   completionChart: BarChartData;
   messages: Messages;
-  actionPlan: ActionItem[];
   footer: string;
 }
