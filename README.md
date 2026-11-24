@@ -35,7 +35,6 @@ src/
 │   └── page.tsx           # composição do relatório (única rota)
 ├── components/
 │   ├── charts/            # visualizações sem biblioteca externa
-│   │   ├── FrequencyGauge.tsx      # medidor de repetição contra o teto
 │   │   ├── HorizontalBarChart.tsx
 │   │   └── StackedBar.tsx
 │   ├── layout/            # cabeçalho e rodapé do documento
@@ -59,12 +58,11 @@ próxima leitura de pulso é editar um arquivo de dados — nenhum componente mu
 resolve o tom para as classes concretas, o que garante que cada vídeo
 tenha a mesma cor em todos os gráficos da página.
 
-**Geometria derivada dos dados.** Larguras de barra, fatias e posição do
-marcador do medidor são calculadas a partir dos valores brutos e do `max` do
-eixo. Não há porcentagem escrita à mão no markup.
+**Geometria derivada dos dados.** Larguras de barra e fatias são calculadas a partir dos
+valores brutos e do `max` do eixo. Não há porcentagem escrita à mão no markup.
 
-**Gráficos sem dependência.** Barras, barra empilhada e medidor são construídos
-com primitivos de layout. Para três gráficos estáticos, uma biblioteca custaria
+**Gráficos sem dependência.** Barras e barra empilhada são construídas
+com primitivos de layout. Para gráficos estáticos, uma biblioteca custaria
 mais em bundle e customização do que entregaria.
 
 ## Responsividade
@@ -81,8 +79,7 @@ Mobile-first, com dois pontos de quebra relevantes:
 ## Acessibilidade
 
 - Hierarquia de headings correta, com `aria-labelledby` por seção.
-- Barras expõem `role="img"` + `aria-label` com rótulo e valor; o medidor usa
-  `role="meter"` com `aria-valuenow` / `aria-valuetext`.
+- Barras expõem `role="img"` + `aria-label` com rótulo e valor.
 - `:focus-visible` explícito e contraste dentro de AA para texto de corpo.
 - Todas as animações de entrada são desativadas sob `prefers-reduced-motion`.
 
