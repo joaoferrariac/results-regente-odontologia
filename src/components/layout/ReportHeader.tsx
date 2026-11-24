@@ -30,7 +30,6 @@ export function ReportHeader({ meta }: ReportHeaderProps) {
         <nav aria-label="Seções do relatório" className="no-print flex gap-6 overflow-x-auto pb-3 text-xs text-ink-soft sm:gap-8">
           {[
             ["visao-geral", "Visão geral"],
-            ["prioridade", "Prioridade"],
             ["comparativo", "Comparativo"],
             ["videos", "Vídeos"],
             ["whatsapp", "WhatsApp"],

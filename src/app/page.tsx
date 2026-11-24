@@ -6,7 +6,6 @@ import { ComparisonTable } from "@/components/report/ComparisonTable";
 import { CreativeTable } from "@/components/report/CreativeTable";
 import { Hero } from "@/components/report/Hero";
 import { Highlights } from "@/components/report/Highlights";
-import { PriorityAlert } from "@/components/report/PriorityAlert";
 import { Stats } from "@/components/report/Stats";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
@@ -30,15 +29,6 @@ export default function ReportPage() {
           </div>
 
           <div className="divide-y divide-rule">
-            <Section
-              id="prioridade"
-              eyebrow="Atenção"
-              title="O que acompanhar esta semana"
-              subtitle={report.alert.intro}
-            >
-              <PriorityAlert alert={report.alert} />
-            </Section>
-
             {report.comparison && (
               <Section
                 id="comparativo"

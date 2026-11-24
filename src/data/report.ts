@@ -73,25 +73,6 @@ export const report: Report = {
     totalDisplay: "R$ 414,26",
   },
 
-  alert: {
-    eyebrow: "Ponto de atenção",
-    intro:
-      "A repetição do mês está abaixo do teto de 3,5, mas o vídeo da família já passou dele e concentra o gasto.",
-    title:
-      "A repetição do mês está em 3,15, e o vídeo da família já está em 3,99, acima do teto de 3,5",
-    body: "Em novembro, cada pessoa alcançada viu os anúncios 3,15 vezes, em média, e o dia de maior repetição foi 18/11, com 3,49. O alcance de 6.282 pessoas cobre só 3% do público estimado da região, mas a entrega vem se fechando sobre quem já viu os vídeos: no último dia, 15% das impressões chegaram a pessoas novas, contra 10% no período anterior, uma amostra de apenas um dia. O vídeo da família ficou com 65% do gasto do mês e com 77% do gasto desde ontem, a um CPM de R$ 24,00, contra R$ 9,40 da perda do dente. Quanto mais a família concentra a verba, mais a repetição sobe. Contando desde o início da campanha, em 08/10, a repetição é de 3,93, também acima do teto. As opções em estudo são pausar a família, trocá-la por um vídeo novo ou reativar a estética, desligada desde 26/10.",
-    gauge: {
-      label: "Repetição dos anúncios da campanha em novembro",
-      value: 3.15,
-      threshold: 3.5,
-      max: 5,
-      valueLabel: "3,15 no mês",
-      thresholdLabel: "teto 3,5",
-      minLabel: "0",
-      maxLabel: "5,0",
-    },
-  },
-
   comparison: {
     title: "Duas semanas de novembro",
     subtitle:

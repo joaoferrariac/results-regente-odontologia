@@ -84,29 +84,6 @@ export interface SpendBreakdown {
   totalDisplay: string;
 }
 
-export interface GaugeData {
-  /** Accessible name of the measured quantity. */
-  label: string;
-  /** Current measured value. */
-  value: number;
-  /** Safe-operating ceiling. Values above it render in the alert tone. */
-  threshold: number;
-  /** Axis upper bound. */
-  max: number;
-  valueLabel: string;
-  thresholdLabel: string;
-  maxLabel: string;
-  minLabel: string;
-}
-
-export interface PriorityAlert {
-  eyebrow: string;
-  intro: string;
-  title: string;
-  body: string;
-  gauge: GaugeData;
-}
-
 export interface CreativeRow {
   creative: Creative;
   name: string;
@@ -176,7 +153,6 @@ export interface Report {
   highlights: Highlight[];
   dailyCostChart: BarChartData;
   spend: SpendBreakdown;
-  alert: PriorityAlert;
   /** Omitted while there is no period-over-period comparison to show. */
   comparison?: Comparison;
   creatives: CreativeTable;
