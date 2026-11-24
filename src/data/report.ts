@@ -289,52 +289,6 @@ export const report: Report = {
     },
   },
 
-  actionPlan: [
-    {
-      title: "Adicionar saldo ou cadastrar uma forma de pagamento",
-      description:
-        "O saldo pré-pago da conta é de R$ 112,58, o que cobre cerca de 7 dias ao ritmo de R$ 16,46 por dia, até por volta de 01/12. A conta não tem forma de pagamento cadastrada, e, se o saldo acabar, os anúncios pausam. Aqui precisamos do Daniel para reabastecer a conta ou cadastrar um cartão.",
-      urgent: true,
-    },
-    {
-      title: "Decidir o que fazer com o vídeo da família",
-      description:
-        "A família está em 3,99 de repetição em novembro, ficou com 65% do gasto do mês e 77% do gasto desde ontem, e tem o CPM mais alto da campanha (R$ 24,00 no último dia, contra R$ 9,40 da perda do dente). As opções são pausar, trocar por um vídeo novo ou reativar a estética, desligada desde 26/10. A proposta é decidir em conjunto antes da próxima leitura, porque a decisão segue em aberto há semanas.",
-      urgent: true,
-    },
-    {
-      title: "Definir a data e a verba do remarketing da Fase 2",
-      description:
-        "A abertura do remarketing estava prevista para 21/11 e ainda não aconteceu. A divisão prevista, de R$ 23 por dia no topo e R$ 10 por dia no remarketing, se baseava em R$ 33 por dia, e hoje o orçamento é de R$ 16. A proposta é abrir, adiar ou rever a divisão de verba. As 10.668 reproduções até a metade em novembro são reproduções e não pessoas, e o limite real é o alcance.",
-    },
-    {
-      title: "Confirmar o orçamento diário de R$ 16 e o tamanho do público",
-      description:
-        "O orçamento passou de R$ 33 para R$ 16 em 03/11, e falta combinar o motivo e por quanto tempo ele vale. Com o vídeo da família acima do teto de repetição, também vale avaliar se o público ou o raio (hoje 25 a 65+ anos, a 12 km) deve ser ampliado. A proposta é não alterar nada antes de definir isso em conjunto.",
-    },
-    {
-      title: "Registrar na recepção de qual anúncio vem cada conversa",
-      description:
-        "O objetivo da campanha é mostrar que a Regente atende adultos, e a forma de saber se isso funciona é ver quantas conversas pedem tratamento adulto. Hoje não há esse registro. A recepção precisa anotar o motivo do contato e o anúncio de origem, e vale perguntar se chegaram mensagens por outros caminhos nos últimos 26 dias. Do nosso lado, falta confirmar o evento de clique no WhatsApp.",
-      urgent: true,
-    },
-    {
-      title: "Conferir o áudio do vídeo da perda do dente",
-      description:
-        "O vídeo pede para clicar em \"Saiba Mais\", mas o botão do anúncio é \"Enviar mensagem\". É o vídeo mais barato da campanha, com R$ 0,030 por ThruPlay em novembro, e não gerou nenhuma conversa no mês. Se o áudio for o que segura as conversas, uma versão ajustada pode transformá-lo também no que mais gera contatos.",
-    },
-    {
-      title: "Fechar os critérios da Fase 1 e do remarketing",
-      description:
-        "O custo do ThruPlay ficou em R$ 0,0320 em novembro, numa faixa de referência de R$ 0,025 a R$ 0,033. Com esse número, dá para definir o que conta como sucesso da Fase 1 e quem entra no público do remarketing, olhando pessoas únicas e tempo assistido, não só reproduções.",
-    },
-    {
-      title: "Confirmar a autorização de imagem dos pacientes",
-      description:
-        "Os vídeos trazem depoimentos de pacientes reais. É preciso confirmar que há termo de autorização de uso de imagem assinado para cada um deles.",
-    },
-  ],
-
   footer:
     "Relatório preparado a partir das leituras de performance de novembro de 2026. Última leitura: 24/11/2026, pela manhã.",
 };

@@ -2,7 +2,6 @@ import { HorizontalBarChart } from "@/components/charts/HorizontalBarChart";
 import { StackedBar } from "@/components/charts/StackedBar";
 import { ReportFooter } from "@/components/layout/ReportFooter";
 import { ReportHeader } from "@/components/layout/ReportHeader";
-import { ActionPlan } from "@/components/report/ActionPlan";
 import { ComparisonTable } from "@/components/report/ComparisonTable";
 import { CreativeTable } from "@/components/report/CreativeTable";
 import { Hero } from "@/components/report/Hero";
@@ -79,15 +78,6 @@ export default function ReportPage() {
             >
               <Stats stats={report.messages.stats} />
               <HorizontalBarChart className="mt-12" {...report.messages.clicksChart} />
-            </Section>
-
-            <Section
-              id="plano"
-              eyebrow="Próximos passos"
-              title="Plano de ação da semana"
-              subtitle="Em ordem de prioridade."
-            >
-              <ActionPlan items={report.actionPlan} />
             </Section>
           </div>
         </Container>

@@ -34,7 +34,6 @@ export function ReportHeader({ meta }: ReportHeaderProps) {
             ["comparativo", "Comparativo"],
             ["videos", "Vídeos"],
             ["whatsapp", "WhatsApp"],
-            ["plano", "Plano de ação"],
           ].map(([id, label]) => (
             <a key={id} href={`#${id}`} className="shrink-0 py-1 transition-colors hover:text-red">{label}</a>
           ))}
